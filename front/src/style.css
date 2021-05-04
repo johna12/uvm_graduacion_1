@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 950px) {
+  .App
+  {
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 100% 100%;
+  }
+
+  .container
+  {
+    background-color: white;
+    margin: 15px 70px 15px 70px;
+    height: 100vh;
+    padding: 15px;
+  }
+}
